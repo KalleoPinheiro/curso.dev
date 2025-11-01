@@ -20,7 +20,17 @@
     "@types/react-dom": "^19.2.2",
     "eslint": "^9",
     "eslint-config-next": "16.0.1",
+    "prettier-plugin-tailwindcss": "^0.7.1",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=24.3.0"
+  },
+  "pnpm": {
+    "neverBuiltDependencies": [
+      "sharp",
+      "unrs-resolver"
+    ]
   }
 }
